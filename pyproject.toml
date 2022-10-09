@@ -1,0 +1,60 @@
+[build-system]
+requires      = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pyprespipe"
+version = "0.0.1"
+description = "Pressure Piping Design"
+readme = "README.md"
+authors = [{ name = "Vamsee Achanta", email = "vamsee.achanta@aceengineer.com" }]
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+keywords=['oil and gas', 'pressure piping', 'pipe wall thickness calculation','pipe capacity', 'asme b31', 'api 1111', 'api rp 2rd']
+dependencies = ["numpy_financial", "pyyaml", "pandas", "numpy", "plotly", 'tomli; python_version < "3.11"']
+requires-python = ">=3.7"
+
+    [project.optional-dependencies]
+    build = ["build", "twine"]
+    dev   = ["black", "bumpver", "isort", "mypy", "pytest"]
+
+    [project.scripts]
+    pressure_pipe = "pyprespipe.pressure_pipe"
+
+    [project.urls]
+    repository    = "https://github.com/vamseeachanta/pyprespipe"
+    documentation = "https://github.com/vamseeachanta/pyprespipe/blob/main/README.md"
+
+
+[tool.bumpver]
+current_version = "0.0.1"
+version_pattern = "MAJOR.MINOR.PATCH"
+commit_message  = "bump version {old_version} -> {new_version}"
+commit          = true
+tag             = true
+push            = false
+
+    [tool.bumpver.file_patterns]
+    "pyproject.toml" = [
+        'current_version = "{version}"',
+        'version = "{version}"',
+    ]
+    "src/lmfa/__init__.py" = ["{version}"]
+    "src/lmfa/__main__.py" = ["- leveraged-multi-family-analysis v{version}"]
+
+[tool.isort]
+profile                   = "black"
+import_heading_stdlib     = "Standard library imports"
+import_heading_thirdparty = "Third party imports"
+import_heading_firstparty = "Reader imports"
+
+[tool.mypy]
+strict = true
+
+    [[tool.mypy.overrides]]
+    module                 = "feedparser"
+    ignore_missing_imports = true
