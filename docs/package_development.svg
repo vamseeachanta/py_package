@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="1000px" preserveAspectRatio="none" style="width:617px;height:1000px;background:#FFFFFF;" version="1.1" viewBox="0 0 617 1000" width="617px" zoomAndPan="magnify"><defs/><g><rect fill="#FF6347" height="45.2188" id="_title" rx="7.5" ry="7.5" style="stroke:#FF0000;stroke-width:2.0;" width="223" x="195.75" y="15"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="209" x="200.75" y="34.5332">Python Package Development</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="174" x="222.25" y="52.1426">Recommended Practices</text><ellipse cx="162" cy="76.2188" fill="#222222" rx="10" ry="10" style="stroke:#222222;stroke-width:1.0;"/><rect fill="none" height="290.9063" style="stroke:#000000;stroke-width:1.5;" width="575" x="31.5" y="96.2188"/><path d="M165.5,96.2188 L165.5,106.8281 L155.5,116.8281 L31.5,116.8281 " fill="none" style="stroke:#000000;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="124" x="34.5" y="111.752">New Library - Setup</text><path d="M302.5,133.0234 L302.5,150.375 L282.5,154.375 L302.5,158.375 L302.5,175.7266 A0,0 0 0 0 302.5,175.7266 L596.5,175.7266 A0,0 0 0 0 596.5,175.7266 L596.5,143.0234 L586.5,133.0234 L302.5,133.0234 A0,0 0 0 0 302.5,133.0234 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M586.5,133.0234 L586.5,143.0234 L596.5,143.0234 L586.5,133.0234 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="118" x="308.5" y="151.5186">Use library of choice</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="273" x="308.5" y="167.8701">https://github.com/vamseeachanta/py_package</text><rect fill="#F1F1F1" height="35.0938" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="241" x="41.5" y="136.8281"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="221" x="51.5" y="159.2852">Make a copy of empty cookiecutter library</text><path d="M247,200.0977 L247,209.2734 L227,213.2734 L247,217.2734 L247,226.4492 A0,0 0 0 0 247,226.4492 L512,226.4492 A0,0 0 0 0 512,226.4492 L512,210.0977 L502,200.0977 L247,200.0977 A0,0 0 0 0 247,200.0977 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M502,200.0977 L502,210.0977 L512,210.0977 L502,200.0977 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="244" x="253" y="218.5928">py_package, py_package/src/py_package</text><rect fill="#F1F1F1" height="35.0938" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="130" x="97" y="195.7266"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="110" x="107" y="218.1836">Rename key folders</text><path d="M255.5,247.0156 L255.5,264.3672 L235.5,268.3672 L255.5,272.3672 L255.5,289.7188 A0,0 0 0 0 255.5,289.7188 L588.5,289.7188 A0,0 0 0 0 588.5,289.7188 L588.5,257.0156 L578.5,247.0156 L255.5,247.0156 A0,0 0 0 0 255.5,247.0156 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M578.5,247.0156 L578.5,257.0156 L588.5,257.0156 L578.5,247.0156 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="250" x="261.5" y="265.5107">py_package/src/py_package/calculation.py</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="312" x="261.5" y="281.8623">py_package/src/py_package/tests/test_calculation.py</text><rect fill="#F1F1F1" height="35.0938" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="147" x="88.5" y="250.8203"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="127" x="98.5" y="273.2773">Rename key filenames</text><path d="M251.5,299.7188 L251.5,333.4219 L231.5,337.4219 L251.5,341.4219 L251.5,375.125 A0,0 0 0 0 251.5,375.125 L415.5,375.125 A0,0 0 0 0 415.5,375.125 L415.5,309.7188 L405.5,299.7188 L251.5,299.7188 A0,0 0 0 0 251.5,299.7188 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M405.5,299.7188 L405.5,309.7188 L415.5,309.7188 L405.5,299.7188 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="143" x="257.5" y="318.2139">Update key items below:</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="93" x="257.5" y="334.5654">- package name</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="88" x="257.5" y="350.917">- dependencies</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="127" x="257.5" y="367.2686">- version management</text><rect fill="#F1F1F1" height="35.0938" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="139" x="92.5" y="319.875"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="119" x="102.5" y="342.332">Update pyproject.toml</text><rect fill="none" height="193.2656" style="stroke:#000000;stroke-width:1.5;" width="435" x="81.5" y="397.125"/><path d="M174.5,397.125 L174.5,407.7344 L164.5,417.7344 L81.5,417.7344 " fill="none" style="stroke:#000000;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="83" x="84.5" y="412.6582">Development</text><path d="M217.5,433.9297 L217.5,451.2813 L197.5,455.2813 L217.5,459.2813 L217.5,476.6328 A0,0 0 0 0 217.5,476.6328 L440.5,476.6328 A0,0 0 0 0 440.5,476.6328 L440.5,443.9297 L430.5,433.9297 L217.5,433.9297 A0,0 0 0 0 217.5,433.9297 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M430.5,433.9297 L430.5,443.9297 L440.5,443.9297 L430.5,433.9297 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="202" x="223.5" y="452.4248">For Test Driven Development (TDD)</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="118" x="223.5" y="468.7764">Modify template test</text><rect fill="#F1F1F1" height="35.0938" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="71" x="126.5" y="437.7344"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="51" x="136.5" y="460.1914">Write test</text><path d="M252.5,486.6328 L252.5,528.5117 L232.5,532.5117 L252.5,536.5117 L252.5,578.3906 A0,0 0 0 0 252.5,578.3906 L506.5,578.3906 A0,0 0 0 0 506.5,578.3906 L506.5,496.6328 L496.5,486.6328 L252.5,486.6328 A0,0 0 0 0 252.5,486.6328 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M496.5,486.6328 L496.5,496.6328 L506.5,496.6328 L496.5,486.6328 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="76" x="258.5" y="505.1279">Use .toml file</text><text fill="#000000" font-family="sans-serif" font-size="13" font-style="italic" lengthAdjust="spacing" textLength="139" x="338.5" y="505.1279">python -m pip install -e .</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="19" x="258.5" y="521.4795">(or)</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="93" x="258.5" y="537.8311">Use conda-build</text><text fill="#000000" font-family="sans-serif" font-size="13" font-style="italic" lengthAdjust="spacing" textLength="91" x="355.5" y="537.8311">conda develop .</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="229" x="258.5" y="554.1826">Development in an IDE with breakpoints</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="98" x="258.5" y="570.5342">on local files etc.</text><rect fill="#F1F1F1" height="50.1875" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="141" x="91.5" y="507.418"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="121" x="101.5" y="529.875">Install Package locally</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="97" x="101.5" y="544.9688">an editable install</text><rect fill="none" height="91.5078" style="stroke:#000000;stroke-width:1.5;" width="513" x="55.5" y="600.3906"/><path d="M112.5,600.3906 L112.5,611 L102.5,621 L55.5,621 " fill="none" style="stroke:#000000;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="47" x="58.5" y="615.9238">Testing</text><path d="M278.5,637.1953 L278.5,654.5469 L258.5,658.5469 L278.5,662.5469 L278.5,679.8984 A0,0 0 0 0 278.5,679.8984 L558.5,679.8984 A0,0 0 0 0 558.5,679.8984 L558.5,647.1953 L548.5,637.1953 L278.5,637.1953 A0,0 0 0 0 278.5,637.1953 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M548.5,637.1953 L548.5,647.1953 L558.5,647.1953 L548.5,637.1953 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="11" x="284.5" y="655.6904">1.</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="199" x="299.5" y="655.6904">TODO Figure out testing in GitHub</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="259" x="284.5" y="672.042">Shall include all possible library versions etc.</text><rect fill="#F1F1F1" height="35.0938" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="193" x="65.5" y="641"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="173" x="75.5" y="663.457">Perform github tests upon push</text><rect fill="none" height="219.4609" style="stroke:#000000;stroke-width:1.5;" width="562.5" x="11" y="701.8984"/><path d="M96,701.8984 L96,712.5078 L86,722.5078 L11,722.5078 " fill="none" style="stroke:#000000;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="75" x="14" y="717.4316">Deployment</text><path d="M279,738.7031 L279,756.0547 L259,760.0547 L279,764.0547 L279,781.4063 A0,0 0 0 0 279,781.4063 L464,781.4063 A0,0 0 0 0 464,781.4063 L464,748.7031 L454,738.7031 L279,738.7031 A0,0 0 0 0 279,738.7031 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M454,738.7031 L454,748.7031 L464,748.7031 L454,738.7031 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="164" x="285" y="757.1982">pip install bumpver (optional)</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="135" x="285" y="773.5498">bumpver update --patch</text><rect fill="#F1F1F1" height="35.0938" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="194" x="65" y="742.5078"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="171" x="78" y="764.9648">Use bumpver to update version</text><path d="M323,797.6016 L323,814.9531 L303,818.9531 L323,822.9531 L323,840.3047 A0,0 0 0 0 323,840.3047 L433,840.3047 A0,0 0 0 0 433,840.3047 L433,807.6016 L423,797.6016 L323,797.6016 A0,0 0 0 0 323,797.6016 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M423,797.6016 L423,807.6016 L433,807.6016 L423,797.6016 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="86" x="329" y="816.0967">pip install build</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="89" x="329" y="832.4482">python -m build</text><rect fill="#F1F1F1" height="35.0938" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="282" x="21" y="801.4063"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="259" x="34" y="823.8633">Build dist files i.e. Wheels (.whl) and .tar.gz files</text><path d="M251.5,850.3047 L251.5,875.832 L231.5,879.832 L251.5,883.832 L251.5,909.3594 A0,0 0 0 0 251.5,909.3594 L563.5,909.3594 A0,0 0 0 0 563.5,909.3594 L563.5,860.3047 L553.5,850.3047 L251.5,850.3047 A0,0 0 0 0 251.5,850.3047 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M553.5,850.3047 L553.5,860.3047 L563.5,860.3047 L553.5,850.3047 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="107" x="257.5" y="868.7998">conda install twine</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="106" x="257.5" y="885.1514">twine upload dist/*</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="291" x="257.5" y="901.5029">Need to create pypi account if not already done so</text><rect fill="#F1F1F1" height="35.0938" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="139" x="92.5" y="862.2852"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="116" x="105.5" y="884.7422">Push dist files to pypi</text><ellipse cx="162" cy="952.3594" fill="none" rx="11" ry="11" style="stroke:#222222;stroke-width:1.0;"/><ellipse cx="162" cy="952.3594" fill="#222222" rx="6" ry="6" style="stroke:#111111;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="162" x2="162" y1="171.9219" y2="195.7266"/><polygon fill="#181818" points="158,185.7266,162,195.7266,166,185.7266,162,189.7266" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="162" x2="162" y1="230.8203" y2="250.8203"/><polygon fill="#181818" points="158,240.8203,162,250.8203,166,240.8203,162,244.8203" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="162" x2="162" y1="285.9141" y2="319.875"/><polygon fill="#181818" points="158,309.875,162,319.875,166,309.875,162,313.875" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="162" x2="162" y1="86.2188" y2="136.8281"/><polygon fill="#181818" points="158,126.8281,162,136.8281,166,126.8281,162,130.8281" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="162" x2="162" y1="472.8281" y2="507.418"/><polygon fill="#181818" points="158,497.418,162,507.418,166,497.418,162,501.418" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="162" x2="162" y1="354.9688" y2="437.7344"/><polygon fill="#181818" points="158,427.7344,162,437.7344,166,427.7344,162,431.7344" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="162" x2="162" y1="557.6055" y2="641"/><polygon fill="#181818" points="158,631,162,641,166,631,162,635" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="162" x2="162" y1="777.6016" y2="801.4063"/><polygon fill="#181818" points="158,791.4063,162,801.4063,166,791.4063,162,795.4063" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="162" x2="162" y1="836.5" y2="862.2852"/><polygon fill="#181818" points="158,852.2852,162,862.2852,166,852.2852,162,856.2852" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="162" x2="162" y1="676.0938" y2="742.5078"/><polygon fill="#181818" points="158,732.5078,162,742.5078,166,732.5078,162,736.5078" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="162" x2="162" y1="897.3789" y2="941.3594"/><polygon fill="#181818" points="158,931.3594,162,941.3594,166,931.3594,162,935.3594" style="stroke:#181818;stroke-width:1.0;"/><rect fill="none" height="25.1563" style="stroke:none;stroke-width:1.0;" width="135" x="239.75" y="962.3594"/><text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="96" x="259.25" y="972.7402">2022.10.25 at 21:56</text><text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="135" x="239.75" y="985.3184">package_development.puml</text><!--MD5=[c0ce019959db2686d0637198b64d33a1]
+@startuml package_development
+skinparam titleBorderRoundCorner 15
+skinparam titleBorderThickness 2
+skinparam titleBorderColor red
+skinparam titleBackgroundColor Tomato
+
+title Python Package Development \n Recommended Practices
+
+start
+
+    partition "New Library - Setup" {
+
+
+        :Make a copy of empty cookiecutter library;
+            note right
+                Use library of choice
+                https://github.com/vamseeachanta/py_package
+            end note
+
+        :Rename key folders;
+            note right
+                py_package, py_package/src/py_package
+            end note
+
+        :Rename key filenames;
+            note right
+                py_package/src/py_package/calculation.py
+                py_package/src/py_package/tests/test_calculation.py
+            end note
+
+        :Update pyproject.toml;
+            note right
+                Update key items below:
+                - package name
+                - dependencies
+                - version management
+            end note
+    }
+
+    partition "Development" {
+    :Write test;
+        note right
+            For Test Driven Development (TDD)
+            Modify template test
+        end note
+    :Install Package locally 
+    an editable install;
+        note right
+            Use .toml file //python -m pip install -e .//
+            (or)
+            Use conda-build //conda develop .//
+            Development in an IDE with breakpoints 
+            on local files etc.
+        end note
+    }
+
+    partition "Testing" {
+    :Perform github tests upon push;
+        note right
+            #TODO Figure out testing in GitHub
+            Shall include all possible library versions etc.
+        end note
+    }
+
+
+    partition "Deployment" {
+    : Use bumpver to update version;
+        note right
+            pip install bumpver (optional)
+            bumpver update - -patch
+        end note
+    : Build dist files i.e. Wheels (.whl) and .tar.gz files;
+        note right
+            pip install build
+            python -m build
+        end note
+    : Push dist files to pypi;
+        note right
+            conda install twine
+            twine upload dist/*
+            Need to create pypi account if not already done so
+        end note
+    }
+
+stop
+
+footer
+%date("yyyy.MM.dd' at 'HH:mm")
+%filename()
+end footer
+
+@enduml
+
+@startuml package_development
+skinparam titleBorderRoundCorner 15
+skinparam titleBorderThickness 2
+skinparam titleBorderColor red
+skinparam titleBackgroundColor Tomato
+
+title Python Package Development \n Recommended Practices
+
+start
+
+    partition "New Library - Setup" {
+
+
+        :Make a copy of empty cookiecutter library;
+            note right
+                Use library of choice
+                https://github.com/vamseeachanta/py_package
+            end note
+
+        :Rename key folders;
+            note right
+                py_package, py_package/src/py_package
+            end note
+
+        :Rename key filenames;
+            note right
+                py_package/src/py_package/calculation.py
+                py_package/src/py_package/tests/test_calculation.py
+            end note
+
+        :Update pyproject.toml;
+            note right
+                Update key items below:
+                - package name
+                - dependencies
+                - version management
+            end note
+    }
+
+    partition "Development" {
+    :Write test;
+        note right
+            For Test Driven Development (TDD)
+            Modify template test
+        end note
+    :Install Package locally 
+    an editable install;
+        note right
+            Use .toml file //python -m pip install -e .//
+            (or)
+            Use conda-build //conda develop .//
+            Development in an IDE with breakpoints 
+            on local files etc.
+        end note
+    }
+
+    partition "Testing" {
+    :Perform github tests upon push;
+        note right
+            #TODO Figure out testing in GitHub
+            Shall include all possible library versions etc.
+        end note
+    }
+
+
+    partition "Deployment" {
+    : Use bumpver to update version;
+        note right
+            pip install bumpver (optional)
+            bumpver update - -patch
+        end note
+    : Build dist files i.e. Wheels (.whl) and .tar.gz files;
+        note right
+            pip install build
+            python -m build
+        end note
+    : Push dist files to pypi;
+        note right
+            conda install twine
+            twine upload dist/*
+            Need to create pypi account if not already done so
+        end note
+    }
+
+stop
+
+footer
+2022.10.25 at 21:56
+package_development.puml
+end footer
+
+@enduml
+
+PlantUML version 1.2022.8(Sun Sep 25 04:00:33 CDT 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

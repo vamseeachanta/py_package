@@ -1,19 +1,106 @@
-# Pipe wall
+# Introduction
 
-Oil and Gas industry has several wall thickness sizing codes 
-- Helps determine the python environment pacakge status and check if the packages are using the latest version. 
-- Help identify technical debt required to progress python projects to the latest distribution versions
+Python Package Cookiecutter Code to help make faster libraries. The objective of this repo is to concentrate on developing source code by standardizing the ecosystem of tools for development
 
-# Assumptions
+## Summary
+
+Writing code helps us solve a business problem. However writing good code will make it reusable. Writing good code with tests around it will help convert the code into a python library (or module or package) usable by fellow team members or to the open source community.
+
+A developer will want to go through this process in a seamless manner. This article and repo will define a proven process and provide to write a python library.
+
+## Usage
+
+Make a copy and use follow the recommended practices for developing python libraries are given below:
+
+<img src="packages/package_development.svg" width=auto, height=auto/>
+
+[https://realpython.com/pypi-publish-python-package/](https://realpython.com/pypi-publish-python-package/)
+
+**Using toml file, bumpver and twine**
+
+| Step |  Description | Commands/Detailed Description | Reference |
+|---|---|---|---|
+| 1 | Create python project with directory structure | Follow pep8 guidelines | [https://www.freecodecamp.org/news/build-your-first-python-package/](https://www.freecodecamp.org/news/build-your-first-python-package/) |
+| 2 | Package compliance | Ensure all directories are package modules using __init__.py  | [https://www.freecodecamp.org/news/build-your-first-python-package/](https://www.freecodecamp.org/news/build-your-first-python-package/) |
+| 3 | Add .toml file and setup.py to build wheels | pip install bumpver <br> bumpver update --patch  <br> pip install build <br> python -m build | https://realpython.com/pypi-publish-python-package/ |
+| 4 | Create account on pypi and upload using twine package | These commands will push the .whl and .tar.gz file into the pypi repository <br> conda install twine <br> twine upload dist/*  | https://realpython.com/pypi-publish-python-package/ |
+
+To see instructions using setup.py & twine, without Version Bump, see docs\using_setuppy.md
+
+## CI
+
+More CI/CD streamlining for python packages:
+- use cookiecutter to generate a package template
+- set up travis CI for auto deployment of package to pypi
+
+#TODO
+- Convert library to a cookiecutter template. Helps parametrize the library name.
+
+https://github.com/audreyfeldroy/cookiecutter-pypackage
+https://cookiecutter-pypackage.readthedocs.io/en/latest/tutorial.html
+https://pypi.org/project/cookiecutter/
 
 
+### Github
 
+Helps cover testing, test coverage, etc.
+https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-python
+https://hynek.me/articles/python-github-actions/
+
+### Travis CI (No Free Support?)
+
+https://jacobtomlinson.dev/posts/2021/testing-and-continuous-integration-for-python-packages-with-github-actions/
+
+https://github.com/ksator/continuous-integration-with-python
+
+https://medium.com/swlh/automate-python-testing-with-github-actions-7926b5d8a865
+
+
+## Testing a Package Locally 
+
+**Using .toml file (Working)**
+
+A package can be imported locally from another code and thoroughly tested as well if required. Editable install is the best way to achieve this.
+The steps to do so are:
+- Change to the current working directory where the pyproject.toml file is located
+- Execute the following command to install the package locally
+	- python -m pip install -e .
+- This installation uses the files in the current working directory
+
+**Using conda-build (Did not work)**
+
+Building A Package Locally
+- Add following package to the base environment
+    -Install conda-buiild
+    -Conda install conda-build
+- Utilize the below to build the package in current path. A specific path can also be specified.
+    - Conda develop . 
+    - https://docs.conda.io/projects/conda-build/en/latest/user-guide/tutorials/build-pkgs.html
+
+
+## Writing Tests
+- Write tests. Preferably utilize pytest. 
+- Example test and file structure
+	- https://github.com/jumptrading/luddite
+	- Utilized test_package.py for all tests 
+	- pytest.ini file for pytest configurations
+	- Utilize github test workflows
+	- https://github.com/jumptrading/luddite/blob/master/.github/workflows/tests.yml
+
+
+### References
+
+[https://www.freecodecamp.org/news/build-your-first-python-package/](https://www.freecodecamp.org/news/build-your-first-python-package/)
+
+[https://python-packaging-tutorial.readthedocs.io/en/latest/setup_py.html](https://python-packaging-tutorial.readthedocs.io/en/latest/setup_py.html)
+
+[https://packaging.python.org/](https://packaging.python.org/)
+
+Guidelines to contribute to libraries:
+[https://pandas.pydata.org/docs/development/contributing.html#contributing](https://pandas.pydata.org/docs/development/contributing.html#contributing)
+
+https://realpython.com/pypi-publish-python-package/
 
 # Key References
 
-Key references used for the package development are:
-
-| Name             | Description      | Hyperlink                                                                                |
-|:-----------------|:-----------------|:----------------------------------------------------------------------------|
-| ASME B31 or ANSI B31 | Pressure piping | [ASME B31 Overview](https://www.engineeringtoolbox.com/asme-b31pressure-piping-d_39.html) |
-
+The key references for the work is given in [python package guidelines](https://github.com/vamseeachanta/energy/blob/c022ab15c953f5ba2efa9139f22fb8b3e3a80142/py/packages.md) 

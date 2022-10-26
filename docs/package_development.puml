@@ -1,0 +1,92 @@
+@startuml package_development
+skinparam titleBorderRoundCorner 15
+skinparam titleBorderThickness 2
+skinparam titleBorderColor red
+skinparam titleBackgroundColor Tomato
+
+title Python Package Development \n Recommended Practices
+
+start
+
+    partition "New Library - Setup" {
+
+
+        :Make a copy of empty cookiecutter library;
+            note right
+                Use library of choice
+                https://github.com/vamseeachanta/py_package
+            end note
+
+        :Rename key folders;
+            note right
+                py_package, py_package/src/py_package
+            end note
+
+        :Rename key filenames;
+            note right
+                py_package/src/py_package/calculation.py
+                py_package/src/py_package/tests/test_calculation.py
+            end note
+
+        :Update pyproject.toml;
+            note right
+                Update key items below:
+                - package name
+                - dependencies
+                - version management
+            end note
+    }
+
+    partition "Development" {
+    :Write test;
+        note right
+            For Test Driven Development (TDD)
+            Modify template test
+        end note
+    :Install Package locally 
+    an editable install;
+        note right
+            Use .toml file //python -m pip install -e .//
+            (or)
+            Use conda-build //conda develop .//
+            Development in an IDE with breakpoints 
+            on local files etc.
+        end note
+    }
+
+    partition "Testing" {
+    :Perform github tests upon push;
+        note right
+            #TODO Figure out testing in GitHub
+            Shall include all possible library versions etc.
+        end note
+    }
+
+
+    partition "Deployment" {
+    : Use bumpver to update version;
+        note right
+            pip install bumpver (optional)
+            bumpver update --patch
+        end note
+    : Build dist files i.e. Wheels (.whl) and .tar.gz files;
+        note right
+            pip install build
+            python -m build
+        end note
+    : Push dist files to pypi;
+        note right
+            conda install twine
+            twine upload dist/*
+            Need to create pypi account if not already done so
+        end note
+    }
+
+stop
+
+footer
+%date("yyyy.MM.dd' at 'HH:mm")
+%filename()
+end footer
+
+@enduml
