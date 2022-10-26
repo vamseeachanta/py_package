@@ -6,7 +6,11 @@ Python Package Cookiecutter Code to help make faster libraries. The objective of
 
 Writing code helps us solve a business problem. However writing good code will make it reusable. Writing good code with tests around it will help convert the code into a python library (or module or package) usable by fellow team members or to the open source community.
 
-A developer will want to go through this process in a seamless manner. This article and repo will define a proven process and provide to write a python library.
+A developer will want to go through this process in a seamless manner. This article and repo will define a proven process and provide guidelines to write a python library.
+
+ #TODO 
+- Convert library to a cookiecutter template. Helps parametrize the library name.
+- Use GitHub actions to include testing, test coverage etc.
 
 ## Usage
 
@@ -33,7 +37,7 @@ More CI/CD streamlining for python packages:
 - use cookiecutter to generate a package template
 - set up travis CI for auto deployment of package to pypi
 
-#TODO
+ #TODO 
 - Convert library to a cookiecutter template. Helps parametrize the library name.
 
 https://github.com/audreyfeldroy/cookiecutter-pypackage
