@@ -11,10 +11,16 @@ start
     partition "New Library - Setup" {
 
 
-        :Make a copy of empty cookiecutter library;
+        :Make a copy/clone of cookiecutter library;
             note right
                 Use library of choice
                 https://github.com/vamseeachanta/py_package
+            end note
+
+        :Map to new repo;
+            note right
+                If cloned, delete the .git folder
+                Use IDE to initilize this new repo library
             end note
 
         :Rename key folders;

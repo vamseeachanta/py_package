@@ -14,7 +14,7 @@ A developer will want to go through this process in a seamless manner. This arti
 
 ## Usage
 
-Make a copy and use follow the recommended practices for developing python libraries are given below:
+The recommended practices for developing python libraries are given below:
 
 <img src="packages/package_development.svg" width=auto, height=auto/>
 
@@ -44,6 +44,10 @@ https://github.com/audreyfeldroy/cookiecutter-pypackage
 https://cookiecutter-pypackage.readthedocs.io/en/latest/tutorial.html
 https://pypi.org/project/cookiecutter/
 
+https://github.com/boromir674/cookiecutter-python-package
+https://github.com/boromir674/cookiecutter-python-package/tox.ini
+
+https://youtu.be/ugGu8fHWFog (A data science project example folder)
 
 ### Github
 
@@ -51,7 +55,7 @@ Helps cover testing, test coverage, etc.
 https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-python
 https://hynek.me/articles/python-github-actions/
 
-### Travis CI (No Free Support?)
+### Travis CI, No Free Support?
 
 https://jacobtomlinson.dev/posts/2021/testing-and-continuous-integration-for-python-packages-with-github-actions/
 
@@ -104,7 +108,3 @@ Guidelines to contribute to libraries:
 [https://pandas.pydata.org/docs/development/contributing.html#contributing](https://pandas.pydata.org/docs/development/contributing.html#contributing)
 
 https://realpython.com/pypi-publish-python-package/
-
-# Key References
-
-The key references for the work is given in [python package guidelines](https://github.com/vamseeachanta/energy/blob/c022ab15c953f5ba2efa9139f22fb8b3e3a80142/py/packages.md) 
