@@ -16,7 +16,7 @@ A developer will want to go through this process in a seamless manner. This arti
 
 The recommended practices for developing python libraries are given below:
 
-<img src="packages/package_development.svg" width=auto, height=auto/>
+<img src="docs/package_development.svg" width=auto, height=auto/>
 
 [https://realpython.com/pypi-publish-python-package/](https://realpython.com/pypi-publish-python-package/)
 
