@@ -73,7 +73,9 @@ start
     : Use bumpver to update version;
         note right
             pip install bumpver (optional)
-            bumpver update --patch
+            bumpver update --patch (or)
+            bumpver update --major (or)
+            bumpver update --minor
         end note
     : Build dist files i.e. Wheels (.whl) and .tar.gz files;
         note right

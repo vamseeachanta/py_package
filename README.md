@@ -12,6 +12,8 @@ A developer will want to go through this process in a seamless manner. This arti
 - Convert library to a cookiecutter template. Helps parametrize the library name.
 - Use GitHub actions to include testing, test coverage etc.
 
+For library guidance on a typical data science, see see [for data science projects](docs\data_science_guidance.md)
+
 ## Usage
 
 The recommended practices for developing python libraries are given below:
@@ -29,7 +31,7 @@ The recommended practices for developing python libraries are given below:
 | 3 | Add .toml file and setup.py to build wheels | pip install bumpver <br> bumpver update --patch  <br> pip install build <br> python -m build | https://realpython.com/pypi-publish-python-package/ |
 | 4 | Create account on pypi and upload using twine package | These commands will push the .whl and .tar.gz file into the pypi repository <br> conda install twine <br> twine upload dist/*  | https://realpython.com/pypi-publish-python-package/ |
 
-To see instructions using setup.py & twine, without Version Bump, see docs\using_setuppy.md
+To see instructions using setup.py & twine, without Version Bump, see [using setup.py](docs\using_setuppy.md)
 
 ## CI
 
@@ -94,7 +96,7 @@ Building A Package Locally
 	- pytest.ini file for pytest configurations
 	- Utilize github test workflows
 	- https://github.com/jumptrading/luddite/blob/master/.github/workflows/tests.yml
-
+- https://tox.wiki/en/latest/
 
 ### References
 
