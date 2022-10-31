@@ -16,6 +16,7 @@ start
 
         :Clone existing repo of choice;
             note right
+                Delete .git folder and initilize as new repo
                 For more guidance:
                 https://github.com/vamseeachanta/py_package
             end note
@@ -110,7 +111,7 @@ start
                 a. key-value pairs in .yaml(or .json)
                 b. matrix data in .csv 
             Output visualizations:
-                2d and 3d charts in plotly
+                2d and 3d charts (.html) in plotly
         end note
     }
 

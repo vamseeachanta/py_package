@@ -1,4 +1,4 @@
-"""Pressure Pipe Design
+"""Generic python package
 
 Usage:
 ------
@@ -10,12 +10,12 @@ Contact:
 
 More information is available at:
 
-- https://pypi.org/project/prespipe/
-- https://github.com/vamseeachanta/prespipe
+- https://pypi.org/project/py_package/
+- https://github.com/vamseeachanta/py_package
 
 
 Version:
 --------
 
-- prespipe v0.0.1
+- py_package v0.0.1
 """
