@@ -65,15 +65,24 @@ start
     }
 
     partition "Testing" {
-    :Perform github tests upon push;
+    : run required tests locally;
+
+    :Perform github tests upon code push;
         note right
-            #TODO Figure out testing in GitHub
-            Shall include all possible library versions etc.
+            Utilize github actions
+            Include latest (and previous) python versions etc.
         end note
     }
 
 
-    partition "Deployment" {
+    partition "Code Deployment - Github" {
+
+    : Commit code with appropriate comments;
+    : Push to github;
+
+    }
+
+    partition "Library Deployment - pypi" {
     : Use bumpver to update version;
         note right
             pip install bumpver (optional)
