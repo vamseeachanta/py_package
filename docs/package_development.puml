@@ -107,6 +107,9 @@ start
             conda install twine
             twine upload dist/*
             Need to create pypi account if not already done so
+            token/password should be created on pypi
+            password copy to command window does not work, 
+             i.e. use right click to paste
         end note
     }
 
