@@ -87,8 +87,15 @@ start
         note right
             pip install bumpver (optional)
             bumpver update --patch (or)
-            bumpver update --major (or)
-            bumpver update --minor
+            bumpver update --minor (or)
+            bumpver update --major
+
+            patch & dry run:
+            bumpver update --patch --dry
+
+            patch and beta:
+            bumpver update --patch --tag=beta
+
         end note
     : Build dist files i.e. Wheels (.whl) and .tar.gz files;
         note right
