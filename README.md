@@ -103,6 +103,16 @@ Building A Package Locally
   - <https://github.com/jumptrading/luddite/blob/master/.github/workflows/tests.yml>
 - <https://tox.wiki/en/latest/>
 
+## Publishing to PyPi
+
+username: **token**
+password will start with pipy: pypi-
+
+  Instructions: If you're using Windows and trying to paste your password or token in the Command Prompt or PowerShell,
+      note that Ctrl-V and Shift+Insert won't work. Instead, you can use "Edit > Paste" from the window menu, or enable "Use Ctrl+Shift+C/V as Copy/Paste" in "Properties".
+
+Reference: [https://realpython.com/pypi-publish-python-package/](https://realpython.com/pypi-publish-python-package/)
+
 ### References
 
 [https://www.freecodecamp.org/news/build-your-first-python-package/](https://www.freecodecamp.org/news/build-your-first-python-package/)
