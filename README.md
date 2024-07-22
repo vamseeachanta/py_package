@@ -110,3 +110,5 @@ Guidelines to contribute to libraries:
 [https://pandas.pydata.org/docs/development/contributing.html#contributing](https://pandas.pydata.org/docs/development/contributing.html#contributing)
 
 https://realpython.com/pypi-publish-python-package/
+
+https://github.com/johnthagen/python-blueprint
